@@ -85,6 +85,7 @@ disable_plugins = {
   ts_context_commentstring = false,
   vim_matchup = false,
   vim_resize = false,
+  vimtex = false
 }
 
 additional_plugins = {

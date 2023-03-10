@@ -133,6 +133,17 @@ elseif vim.fn.len(vim.fn.argv()) == 0 then
   })
 end
 
+-- VimTex (I don't know where to put it, here is good)
+vim.g.test="OLA"
+
+vim.g.tex_flavor='latex'
+vim.g.vimtex_view_method='zathura'
+vim.g.vimtex_quickfix_mode=0
+vim.conceallevel=1
+vim.g.tex_conceal='abdmg'
+
+
+
 -- Defining CodeArtUpdate commands.
 vim.api.nvim_create_user_command("CodeArtUpdate", function()
   require("utils").update()

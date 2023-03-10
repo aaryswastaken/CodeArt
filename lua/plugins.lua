@@ -99,6 +99,14 @@ return require("packer").startup({
       "artart222/nvim-enfocado",
       disable = disable_plugins.nvim_enfocado,
     })
+    -- LaTeX is cool
+    use({
+        "lervag/vimtex",
+        -- config = function()
+        --     require("plugins/vimte")
+        -- end,
+        disable = disable_plugins.vimtex
+    })
 
     -- TrueZen.nvim is a Neovim plugin that aims to provide a cleaner and less cluttered interface
     -- when toggled in either of it has three different modes (Ataraxis, Minimalist and Focus).
